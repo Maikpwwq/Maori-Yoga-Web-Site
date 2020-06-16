@@ -1,0 +1,146 @@
+/*stylo general de paginas*/
+body{
+    font-family: "titilium web", Helvetica, sans-serif;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    background-color:rgba(35, 49, 59, 0.9);         
+    height: auto;
+    width: 97%;
+    padding: 11px;
+}
+p {
+  font-family: "monserrat";
+  margin: 3px;
+  font-size: 29px;
+  padding: 15px 15px;
+  color: #191a1e;     
+}
+div, h1{
+  background-color: rgb(169,169,169);  
+}
+div{
+    margin: 9px 9px;
+}
+h1{
+  color: #cc3366;
+  border-width: 5px;
+  border-style: solid;
+  border-color: thistle;
+  border-radius: 30%;
+  margin: 9px 9px;
+  padding: 21px;
+  font-size: 48px;
+}
+/* Enlaces a redes sociales */
+#social{
+  background-color: hsla(219, 73%, 54%, 0.63); 
+  margin: 5px 9px;
+  padding: 10px 0px;
+}
+.redsocial{
+  background-color: hsla(219, 73%, 54%, 0.63);
+  display: inline;
+}
+.socialbtn{
+   display: inline;
+   margin: 10px 25px;   
+}  
+/* Menu de la pagina index */
+#menu{
+  border-width: 1px;
+  border-style: solid;
+  border-color: darkorange;  
+  font-size: 29px;
+  vertical-align: auto
+}
+.menuicono{
+    height: 50px;
+    width: 50px;    
+    vertical-align: middle;
+}  
+.menubtn{
+  display: inline;
+}
+.menupagina:hover{
+  background-color: hotpink;
+  text-decoration: none;
+}
+.menupagina{
+  display: inline-flex;
+  vertical-align: middle;
+  background-color: #cccccc;
+  border-color: midnightblue;
+  border-width: 1px;
+  padding: 11px;
+  border-style: solid;
+  border-radius: 25px;
+}
+a{
+  color: #33ccff;  
+}
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+ /* unvisited link */
+a:link {
+  color: goldenrod;
+}
+/* visited link */
+a:visited {
+  color:  blue;
+}
+/* selected link */
+a:active {
+  color: black;
+} 
+.button {
+    margin: 15px;
+    background-color: #555555;; /* black */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+}
+.button:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+/* Formulario newsletter*/
+#suscribirse{
+  font-family: "roboto";
+  font-size: 29px;
+  padding: 30px 30px;
+  margin: 15px;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+#suscribirse::before{    
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  }
+.input{
+    width: 500px;
+    font-size: 21px;
+    font-family: "roboto";
+    text-align: center;
+}
+form{
+  background: #333366 url(../imagenes/kisspng.png) no-repeat center;  
+  color: #cccccc;
+  width: auto; 
+  height: 130px;
+  padding: 190px 50px;   
+  border-color: salmon;
+  border-width: 5px;
+  border-style: solid;
+}
