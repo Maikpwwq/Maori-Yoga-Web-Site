@@ -105,7 +105,10 @@ a:active {
   color: black;
 } 
 .contenidosimg{
-  padding: 15px 32px;
+  margin: 15px 32px;
+  border-color: rgb(153, 50, 204);
+  border-width: 6px;
+  border-style: solid;
 }
 .button {
     margin: 15px;
@@ -125,8 +128,6 @@ a:active {
 }
 /* Formulario newsletter*/
 #suscribirse{
-  font-family: "roboto";
-  font-size: 29px;
   padding: 30px 30px;
   margin: 15px;
   align-items: center;
@@ -146,9 +147,8 @@ a:active {
     text-align: center;
 }
 form{
-  background: #333366 url(../imagenes/kisspng.png) no-repeat center;  
-  color: #cccccc;
-  width: 130%; 
+  background: #333366 url(../imagenes/kisspng.png) no-repeat center;    
+  width: 790px; 
   height: 130px;
   padding: 190px 50px;   
   border-color: salmon;
@@ -159,4 +159,27 @@ form{
   display: flex;
   flex-direction: row;
   background-color:rgba(35, 49, 59, 0.9); 
+  font-family: "roboto";
+  color: #cccccc;
+  font-size: 29px;  
+  align-items: center;
+}
+#contacto{
+  align-content: center;    
+}
+.textocontacto{
+  color: #cccccc;
+  font-size: 29px;
+  font-family: 'Tekton Pro';
+}
+.derechos{
+  background-color: hsla(219, 73%, 54%, 0.63);
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px 10px;  
+}
+.derechos2020{
+  color: #cccccc;
+  font-family: 'Cooper Black';
+  font-size: 37px;
 }
