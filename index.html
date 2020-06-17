@@ -13,29 +13,9 @@
 
 <body>
   <!-- Esta pagina es cargada por defecto -->
-  <h1> Maori <span style="color: darkmagenta;"> evolution Yoga </span> </h1>  
-  <section id="social">
-    <ul style="display: inline;">
-      <div class="redsocial"> <li class="socialbtn">              
-          <a href="https://www.youtube.com/">
-              <img src="./imagenes/youtube.png" alt="Youtube Maori" class="menuicono"/>
-          </a>              
-      </li></div>            
-      <div class="redsocial"><li class="socialbtn">
-        <a href="https://www.facebook.com/Maori.Evolution/">
-            <img src="./imagenes/facebook.png" alt="Facebook Maori" class="menuicono"/>
-        </a>
-      </li></div>
-      <div class="redsocial"><li class="socialbtn">
-        <a href="https://www.instagram.com/maori.evolution/">
-            <img src="./imagenes/instagram.png" alt="Instagram Maori" class="menuicono"/>
-        </a>
-      </li></div>      
-    </ul>             
-  </section>
   <!-- Menu de la pagina -->
   <div id="menu" > 
-        <ul style="display: inline;">
+        <ul style="margin-top: 0px;">
             <div class="menupagina"> <li class="menubtn">              
                 <a href="./paginas/inicio_maori.html">
                     <img src="./imagenes/LogoMaori.gif" alt="Inicio Tienda Maori" class="menuicono"/> -Inicio-
@@ -56,24 +36,68 @@
                   <img src="./imagenes/Asanas-History.png" alt="Asanas Yoga" class="menuicono"/> -Asanas- 
               </a>
             </li></div>
+            <section id="social">
+              <ul style="display: inline;">
+                <div class="redsocial"> <li class="socialbtn">
+                    <a href="https://www.youtube.com/">
+                      <img src="./imagenes/youtube.png" alt="Youtube Maori" class="menuicono"/>
+                    </a>
+                </li></div>
+                <div class="redsocial"><li class="socialbtn">
+                  <a href="https://www.facebook.com/Maori.Evolution/">
+                      <img src="./imagenes/facebook.png" alt="Facebook Maori" class="menuicono"/>
+                  </a>
+                </li></div>
+                <div class="redsocial"><li class="socialbtn">
+                  <a href="https://www.instagram.com/maori.evolution/">
+                      <img src="./imagenes/instagram.png" alt="Instagram Maori" class="menuicono"/>
+                  </a>
+                </li></div>      
+              </ul>             
+            </section>
         </ul>                          
-       <br>
   </div>
   <!-- Comienza la presentacion de contenidos -->
-<div>
-  <a href="">
-    <img src="./imagenes/BannerMaori2.png" alt="El Yoga transforma tu estilo de vida.">
+  <h1> Maori <span style="color: darkmagenta;"> evolution Yoga </span> </h1>  
+<div class="contenidos">
+  <a href="#">
+    <img class="contenidosimg" src="./imagenes/BannerMaori2.png" alt="El Yoga transforma tu estilo de vida.">
   </a>
   <p>  Recupera el equilibrio en tu vida diaria. Siente la comodidad de <br> 
     nuestras atractivas prendas y con Yoga transforma tu estilo de vida. <br>
   </p>
-  <a href="">
-    <img src="./imagenes/InstaElementoMaori.gif" alt="El Yoga pone en movimiento tu potencial interior.">
+  <a href="#">
+    <img class="contenidosimg" src="./imagenes/InstaElementoMaori.gif" alt="El Yoga pone en movimiento tu potencial interior.">
   </a>
   <p>  La practica Yoga, un estilo de vida que pone en movimiento tu potencial interior.</p>    
   </div>
   <!-- Aqui comienza el formulario Suscribe -->
-  <div>  
+  <footer id="footer">
+    <section>
+      <p>Contacto:</p>
+      <p><a href="mailto:maori.evolution@gmail.com">maori.evolution@gmail.com</a></p> 
+      <p>WhatsApp:</p>
+      <p><a href="#">3143573006</a></p>       
+    <section id="socialfooter">
+      <ul style="display: inline;">
+        <div class="redsocial"> <li class="socialbtn">              
+            <a href="https://www.linkedin.com/">
+              <img src="./imagenes/boton_linkedin.png" alt="Linkedin" class="menuicono"/>
+            </a>              
+        </li></div>            
+        <div class="redsocial"><li class="socialbtn">
+          <a href="https://www.facebook.com/Maori.Evolution/">
+              <img src="./imagenes/boton_facebook.png" alt="Facebook Maori" class="menuicono"/>
+          </a>
+        </li></div>
+        <div class="redsocial"><li class="socialbtn">
+          <a href="https://www.instagram.com/maori.evolution/">
+              <img src="./imagenes/boton_instagram.png" alt="Instagram Maori" class="menuicono"/>
+          </a>
+        </li></div>      
+      </ul>             
+    </section>
+  </section> 
   <section id="suscribirse">
     <form action="./paginas/inicio_maori.html" method="POST" autocomplete="off">
       <label for="email"> Registra un correo electronico: </label> <br>
@@ -81,6 +105,6 @@
       <a href="./paginas/inicio_maori.html"></a><button class="button" type="submit" onclick="alert('registrado!')"> Suscribe! </button></a>
     </form>
   </section>  
-</div>
+</footer>
 </body>
 </html>

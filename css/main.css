@@ -3,11 +3,12 @@ body{
     font-family: "titilium web", Helvetica, sans-serif;
     display: inline-block;
     align-items: center;
-    text-align: center;
-    background-color:rgba(35, 49, 59, 0.9);         
+    text-align: center;        
+    background-color:rgba(35, 49, 59, 0.9);     
     height: auto;
-    width: 97%;
-    padding: 11px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
 }
 p {
   font-family: "monserrat";
@@ -16,43 +17,50 @@ p {
   padding: 15px 15px;
   color: #191a1e;     
 }
-div, h1{
+div{
   background-color: rgb(169,169,169);  
+  border-color: hsla(219, 73%, 54%, 0.63);
+  border-style: groove;
 }
 div{
     margin: 9px 9px;
 }
 h1{
+  background-color: rgb(169,169,169);  
   color: #cc3366;
   border-width: 5px;
   border-style: solid;
   border-color: thistle;
   border-radius: 30%;
-  margin: 9px 9px;
-  padding: 21px;
+  margin: 6px 6px;
+  padding: 17px;
   font-size: 48px;
 }
 /* Enlaces a redes sociales */
-#social{
-  background-color: hsla(219, 73%, 54%, 0.63); 
+#social{  
   margin: 5px 9px;
   padding: 10px 0px;
+  display: inline;
 }
 .redsocial{
-  background-color: hsla(219, 73%, 54%, 0.63);
   display: inline;
+  background-color: inherit;
 }
 .socialbtn{
    display: inline;
-   margin: 10px 25px;   
+   margin: 10px 25px;      
 }  
 /* Menu de la pagina index */
 #menu{
-  border-width: 1px;
+  border-width: 0px;
+  border-bottom: 5px;
+  background-color:rgba(35, 49, 59, 0.9);     
   border-style: solid;
+  margin: 0px 0px;
+  padding: 0px;
   border-color: darkorange;  
   font-size: 29px;
-  vertical-align: auto
+  vertical-align: auto;  
 }
 .menuicono{
     height: 50px;
@@ -63,7 +71,7 @@ h1{
   display: inline;
 }
 .menupagina:hover{
-  background-color: hotpink;
+  background-color: hsla(219, 73%, 54%, 0.63);
   text-decoration: none;
 }
 .menupagina{
@@ -96,6 +104,9 @@ a:visited {
 a:active {
   color: black;
 } 
+.contenidosimg{
+  padding: 15px 32px;
+}
 .button {
     margin: 15px;
     background-color: #555555;; /* black */
@@ -137,10 +148,15 @@ a:active {
 form{
   background: #333366 url(../imagenes/kisspng.png) no-repeat center;  
   color: #cccccc;
-  width: auto; 
+  width: 130%; 
   height: 130px;
   padding: 190px 50px;   
   border-color: salmon;
   border-width: 5px;
   border-style: solid;
+}
+#footer {
+  display: flex;
+  flex-direction: row;
+  background-color:rgba(35, 49, 59, 0.9); 
 }
