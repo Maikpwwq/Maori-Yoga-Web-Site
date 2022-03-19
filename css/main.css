@@ -40,7 +40,6 @@ body{
     text-align: center;        
     background-color:rgba(35, 49, 59, 0.9);     
     height: 100%;
-    width: 100%;
     padding: 0px;
     margin: 0px;
 }
@@ -101,7 +100,7 @@ h2{
   position: fixed;
   width: 100%;
   min-height: 90px;
-  max-height: 150px;
+  max-height: 190px;
   overflow: scroll;
 }
 .menu-container{
@@ -282,7 +281,8 @@ a:active {
   color: #cccccc;
   font-size: 33px;  
   align-items: center;
-  align-content: center;    
+  align-content: center;  
+  width: 100%;  
 }
 #contacto{
   align-content: center;    
@@ -298,6 +298,7 @@ a:active {
   flex-direction: column;
   margin: 0px;
   padding: 0px 10px;  
+  width: 100%;
 }
 .derechos2020{
   color: #cccccc;
