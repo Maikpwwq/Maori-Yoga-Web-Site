@@ -25,6 +25,7 @@
   
   <!-- Menu de la pagina -->
   <div id="menu" > 
+    <container class="menu-container">
         <ul style="margin-top: 0px; padding-left: 0px;">
             <div class="menupagina"><li class="menubtn"><a href="./paginas/inicio_maori.html" class="menutexto">
                     <img src="./imagenes/LogoMaori.gif" alt="Inicio Tienda Maori" class="menuicono"/> -Inicio-
@@ -58,24 +59,23 @@
                 </li></div>      
               </ul>             
             </section>
-        </ul>                          
+        </ul> 
+    </container>                              
   </div>  
   <section  class="seccionNoticias">    
     <!-- <img class="imgFondo" src="./imagenes/wallpaper-yoga.jpg" alt="Yoga para todos"> -->
     <!-- Comienza la presentacion de contenidos -->
-    <h1 style="text-align: center;"> Maori <span style="color: darkmagenta;"> evolution Yoga </span> </h1>
-    <a href="#">
-      <img class="contenidosimg" src="./imagenes/BannerMaori2.png" alt="El Yoga transforma tu estilo de vida.">      
-    </a>
+    <h2 style="text-align: center;"> Maori <span style="color: darkmagenta;"> evolution Yoga </span> </h2>
+    <div class="contenidosimg banner-Maori_2" alt="El Yoga transforma tu estilo de vida.">    
+    </div>
     <p style="color: beige;">  La practica Yoga, un estilo de vida que pone en movimiento tu potencial interior.</p>    
   </section>
-<div class="contenidos">  
+  <div class="contenidos">  
   <p style="color: beige;">  Recupera el equilibrio en tu vida diaria. <br> 
     Siente la comodidad de nuestras atractivas prendas y con Yoga transforma tu estilo de vida. <br>
   </p>
-  <a href="#">
-    <img class="contenidosimg" src="./imagenes/InstaElementoMaori.gif" alt="El Yoga pone en movimiento tu potencial interior.">
-  </a>  
+  <div class="contenidosimg insta-elemento-maori" alt="El Yoga pone en movimiento tu potencial interior.">    
+  </div>  
   </div>
   <!-- Aqui comienza el formulario Suscribe -->
   <footer id="footer">
@@ -105,11 +105,13 @@
     </section>
   </section> 
   <section id="suscribirse">
-    <form action="./paginas/inicio_maori.html" method="POST" autocomplete="off">
-      <label for="email"> Registra un correo electronico: </label> <br>
-      <input class="input" type="email" value="Ingresa tu correo aqui" title="Registra un correo aquí" name="newsletter" id="newsletter"> <br>
-      <a href="./paginas/inicio_maori.html"></a><button class="button" type="submit" onclick="alert('registrado!')"> Suscribe! </button></a>
-    </form>
+    <container id="suscribirse-form">
+      <form action="./paginas/inicio_maori.html" method="POST" autocomplete="off">
+        <label for="email"> Registra un correo electronico: </label> <br>
+        <input class="input" type="email" value="Ingresa tu correo aqui" title="Registra un correo aquí" name="newsletter" id="newsletter"> <br>
+        <a href="./paginas/inicio_maori.html"></a><button class="button" type="submit" onclick="alert('registrado!')"> Suscribe! </button></a>
+      </form>
+    </container>
   </section>    
 </footer>
 <div class="derechos">

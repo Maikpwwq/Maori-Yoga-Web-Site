@@ -1,3 +1,33 @@
+@media screen and (max-width: 600px) {
+  .menu-container ul{
+    flex-direction: column !important;
+  }
+  .insta-elemento-maori, .loto-maori, .mat-maori {   
+    background-size: 100% auto !important;
+    min-height: 400px !important;
+  }
+  #footer {
+    flex-direction: column !important;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .menu-container{
+    justify-content: start !important;
+  }
+  .menu-container ul{
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1328px) {
+  #footer {
+    flex-direction: column !important;
+  }
+}
+@media screen and (min-width: 900px) {
+
+}
+
 /*stylo general de paginas*/
 html{
   height: 100%;
@@ -29,14 +59,14 @@ div{
 div{
     margin: 9px 9px;
 }
-h1{
+h2{
   background-color: rgba(25,26,30,0.8);  
   color: #cc3366;
   border-width: 5px;
   border-style: solid;
   border-color: thistle;
   border-radius: 30%;  
-  width: 700px;
+  max-width: 700px;
   /*margin: 10px 0px 50px 150px;*/
   padding: 17px;
   font-size: 48px;
@@ -70,8 +100,17 @@ h1{
   vertical-align: auto;  
   position: fixed;
   width: 100%;
-  max-height: 90px;
-  overflow: hidden;
+  min-height: 90px;
+  max-height: 150px;
+  overflow: scroll;
+}
+.menu-container{
+  justify-content: center;
+  display: flex;
+}
+.menu-container ul{
+  display: flex;
+  flex-direction: row;
 }
 .menuicono{
     height: 50px;
@@ -123,7 +162,7 @@ a:active {
 }
 .seccionNoticias{
   background: rgb(169,169,169) url(../imagenes/wallpaper-yoga.jpg) no-repeat center;
-  background-size: 100% auto;
+  background-size: cover;
   background-attachment: fixed;    
   padding-top: 130px;    
   text-align: center;  
@@ -137,6 +176,27 @@ a:active {
   border-color: rgb(153, 50, 204);
   border-width: 6px;
   border-style: solid;
+  max-width: 1000px;
+}
+.banner-Maori_2{
+  background: rgb(169,169,169) url(../imagenes/BannerMaori2.png) no-repeat center;
+  background-size: 100% 100%;
+  min-height: 315px
+}
+.insta-elemento-maori{
+  background: rgb(169,169,169) url(../imagenes/InstaElementoMaori.gif) no-repeat center;
+  background-size: 100% 100%;
+  min-height: 800px
+}
+.loto-maori{
+  background: rgb(169,169,169) url(../imagenes/Loto.png) no-repeat center;
+  background-size: 100% 100%;
+  min-height: 800px
+}
+.mat-maori{
+  background: rgb(169,169,169) url(../imagenes/Mat.png) no-repeat center;
+  background-size: 100% 100%;
+  min-height: 800px
 }
 .button {
 	box-shadow:inset 0px 1px 3px 0px #91b8b3;
@@ -191,21 +251,32 @@ a:active {
     font-family: "roboto";
     text-align: center;
 }
-form{
+#suscribirse-form{
   background: rgba(51, 51, 102, 0.7) url(../imagenes/kisspng.png) no-repeat center;    
-  background-size: 600px;
+  background-size: 100%;
   width: auto; 
-  height: 110%;  
+  min-height: 110%; 
+  min-width: 480px;
   padding: 90px 40px;   
   border-color: rgba(250, 128, 114, 0.7);
   border-width: 9px;  
   border-style: solid;
+  display: flex;
+  justify-content: center;
+}
+#suscribirse-form label {
+  font-size: inherit !important;
+  color: #ffffff !important;
+}
+#suscribirse-form input {
+  font-size: inherit !important;
+  color: #9e9e9e !important;
 }
 #footer {
   display: flex;
   flex-direction: row;
   background:rgba(35, 49, 59, 0.9) url(../imagenes/Uso_de_Mat.png) no-repeat center; 
-  height: 500px;
+  min-height: 500px;
   background-size: cover;  
   font-family: "Tekton Pro";
   color: #cccccc;
